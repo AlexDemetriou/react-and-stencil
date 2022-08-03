@@ -20,6 +20,7 @@
     "loader/"
   ],
   "scripts": {
+    "custom": "stencil build --watch",
     "build": "stencil build --docs",
     "start": "stencil build --dev --watch --serve",
     "test": "stencil test --spec --e2e",
@@ -31,7 +32,7 @@
     "@stencil/react-output-target": "^0.3.1"
   },
   "devDependencies": {
-    "@types/jest": "^27.0.3",
+    "@types/jest": "^27.4.1",
     "jest": "^27.4.5",
     "jest-cli": "^27.4.5",
     "puppeteer": "^15.5.0"
