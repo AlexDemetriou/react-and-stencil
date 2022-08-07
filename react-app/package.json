@@ -18,7 +18,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "custom": "start npm --prefix ../stencil-component-library run custom && start npm run start",
+    "custom": "start npm --prefix ../stencil-component-library run custom && npm run start",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

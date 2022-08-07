@@ -8,6 +8,7 @@ export const config: Config = {
       componentCorePackage: 'stencil-component-library',
       proxiesFile: '../react-component-library/src/components/stencil-generated/index.ts',
       includeDefineCustomElements: true,
+      includePolyfills: true
     }),
     {
       type: 'dist',

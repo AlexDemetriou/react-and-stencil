@@ -3,11 +3,7 @@
   "sideEffects": false,
   "version": "0.0.1",
   "private": true,
-  "description": "React specific wrapper for component-library",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ionic-team/ionic.git"
-  },
+  "description": "React-wrapper for stencil-component-library",
   "scripts": {
     "build": "npm run clean && npm run compile",
     "clean": "if exist dist rmdir /s /q dist",
@@ -23,7 +19,7 @@
   ],
   "devDependencies": {
     "@types/jest": "^28.1.6",
-    "@types/node": "^18.6.3",
+    "@types/node": "^16.11.7",
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
     "jest": "^28.1.3",
